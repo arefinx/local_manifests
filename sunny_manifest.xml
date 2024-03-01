@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="finn"
+            fetch="https://github.com/arefinx"
+            clone-depth="1" />
+ <!--Device -->
+ <project path="device/xiaomi/sunny" name="android_device_xiaomi_sunny" remote="finn" revision="lineage-21.0" />
+
+ <!--Kernel -->
+ <project path="kernel/xiaomi/sunny" name="android_kernel_xiaomi_sunny" remote="finn" revision="fourteen" />
+ 
+ <!--Vendor -->
+ <project path="vendor/xiaomi/sunny" name="android_vendor_xiaomi_sunny" remote="finn" revision="fourteen" />
+ 
+</manifest>
